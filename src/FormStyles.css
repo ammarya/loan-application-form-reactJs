@@ -1,0 +1,81 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#loan-form {
+  background-color: rgb(51, 0, 170);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+  width: 50%;
+}
+
+
+label,
+select {
+  display: flex;
+  justify-self: start;
+  margin: 10px 30px;
+}
+
+input:not(.checkbox),
+select {
+  display: flex;
+  margin: 10px 30px;
+  width: 90%;
+  height: 30px;
+  border: none;
+}
+
+.checkbox {
+  display: flex;
+  margin: 10px 30px;
+  width: 30px;
+  height: 30px;
+  border: none;
+}
+
+
+button {
+  margin-top: 10px;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background: rgb(211, 0, 127);
+  color: white;
+  /* cursor: pointer; */
+}
+
+
+.container {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.70);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: white;
+  width: 90%;
+  color: rgb(7, 189, 7);
+}
+
+.disabled {
+  background-color: gray !important;
+}
